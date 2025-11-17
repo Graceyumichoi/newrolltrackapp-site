@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RollTrack App – Save on Gym Software Fees</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- ===========================
+       Sticky Navigation
+  ============================ -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="#" class="flex items-center space-x-2">
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white text-sm font-semibold">R</span>
+        <span class="font-bold text-lg tracking-tight">RollTrack App</span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <a href="#problem" class="hover:text-slate-700">Problem</a>
+        <a href="#comparison" class="hover:text-slate-700">Savings</a>
+        <a href="#features" class="hover:text-slate-700">Features</a>
+        <a href="#how-it-works" class="hover:text-slate-700">How It Works</a>
+        <a href="#faq" class="hover:text-slate-700">FAQ</a>
+        <a href="#cta" class="inline-flex items-center px-4 py-2 rounded-full bg-slate-900 text-white hover:bg-slate-800">
+          Book a Free Savings Checkup
+        </a>
+      </nav>
+      <!-- Mobile menu button (non-functional placeholder) -->
+      <button class="md:hidden inline-flex items-center justify-center p-2 rounded-md border border-slate-300 text-slate-700 hover:bg-slate-100" aria-label="Open menu">
+        <span class="text-xl">☰</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===========================
+         Hero Section
+    ============================ -->
+    <section class="py-16 sm:py-20" id="hero">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 mb-4">
+              Stop Letting Your Gym Software Eat Your Profits.
+            </h1>
+            <p class="text-base sm:text-lg text-slate-700 mb-6">
+              RollTrack App + Stripe helps BJJ and martial arts gyms cut payment fees, keep more of every membership dollar,
+              and get the simple check-in and retention tools they actually need.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3 mb-4">
+              <a href="#cta" class="inline-flex justify-center items-center px-6 py-3 rounded-full text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                Book a Free Savings Checkup
+              </a>
+              <a href="#comparison" class="inline-flex justify-center items-center px-6 py-3 rounded-full text-sm font-semibold border border-slate-300 text-slate-900 hover:bg-slate-100">
+                See How Much You’re Overpaying
+              </a>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-500">
+              Built for BJJ & Martial Arts Gyms • Works with Stripe • Alternative to MindBody, Zen Planner, PushPress, PerfectMind
+            </p>
+          </div>
+          <div class="md:pl-8">
+            <div class="bg-white border border-slate-200 rounded-2xl shadow-sm p-5 sm:p-6 space-y-4">
+              <h2 class="text-sm font-semibold text-slate-700 uppercase tracking-wide">Quick Snapshot</h2>
+              <div class="grid grid-cols-2 gap-4">
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                  <p class="text-xs font-medium text-slate-500">Typical All-in-One</p>
+                  <p class="text-lg font-semibold text-slate-900 mt-1">~4–8%</p>
+                  <p class="text-xs text-slate-500 mt-1">Effective rate after markups</p>
+                </div>
+                <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-100">
+                  <p class="text-xs font-medium text-emerald-700">RollTrack App + Stripe</p>
+                  <p class="text-lg font-semibold text-emerald-900 mt-1">2.9% + 30¢</p>
+                  <p class="text-xs text-emerald-700 mt-1">Transparent published rate</p>
+                </div>
+              </div>
+              <div class="flex items-center justify-between">
+                <p class="text-xs text-slate-600">
+                  Example: On $20,000/month in billing…
+                </p>
+                <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+                  Save ≈ $400 / month
+                </span>
+              </div>
+              <p class="text-xs text-slate-500">
+                That’s ≈ $4,800 / year back into your gym from payments you’re already collecting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         Problem Section — Hidden Fees
+    ============================ -->
+    <section class="py-14 sm:py-16 bg-white border-y border-slate-200" id="problem">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          Your All-in-One Platform Is Quietly Charging 4–8%.
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 mb-6">
+          Platforms like <span class="font-semibold">MindBody, Zen Planner, PushPress, and PerfectMind</span> often advertise
+          “2.9%” processing. But once you look at the real statements, most gyms are paying closer to <span class="font-semibold">4–8%</span>
+          because of platform markups and extra fees layered on top.
+        </p>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-sm font-semibold text-slate-800 mb-2">Common hidden costs:</h3>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• Processing rate markup on top of the advertised 2.9%</li>
+              <li>• “Admin” or “convenience” fees tacked onto each transaction</li>
+              <li>• Gateway fees just to move money from cards to your account</li>
+              <li>• Payout fees every time you get a deposit</li>
+              <li>• Extra charges for certain card types (AmEx, rewards cards, etc.)</li>
+            </ul>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5">
+            <h3 class="text-sm font-semibold text-slate-800 mb-2">What that means for your gym:</h3>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• You think you’re paying 2.9% — you’re really paying much more.</li>
+              <li>• Hundreds to thousands of dollars a month leaking out in fees.</li>
+              <li>• Hard to compare or negotiate because you don’t “own” the processor relationship.</li>
+              <li>• Less cash available for coaches, mats, and growing your community.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         Savings Comparison Section
+    ============================ -->
+    <section class="py-16 sm:py-20" id="comparison">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-8">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">
+            How Much You’re Actually Paying
+          </h2>
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold">
+            Example: $20,000 / month in memberships
+          </span>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Competitors Card -->
+          <div class="bg-white border border-rose-100 rounded-2xl shadow-sm p-6 flex flex-col">
+            <p class="text-xs font-semibold uppercase tracking-wide text-rose-600 mb-2">
+              MindBody • Zen Planner • PushPress • PerfectMind
+            </p>
+            <h3 class="text-lg font-semibold text-slate-900 mb-4">
+              Typical All-in-One Platform
+            </h3>
+            <ul class="space-y-2 text-sm text-slate-700 mb-4">
+              <li><span class="font-semibold">Monthly billing:</span> $20,000</li>
+              <li><span class="font-semibold">Effective rate:</span> ~4%</li>
+              <li><span class="font-semibold">Processing fees:</span> $800 / month</li>
+              <li><span class="font-semibold">Software subscription:</span> $200 / month</li>
+            </ul>
+            <div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100">
+              <p class="text-sm font-semibold text-slate-900">Total: $1,000 / month</p>
+              <span class="inline-flex items-center px-3 py-1 rounded-full bg-rose-50 text-rose-700 text-xs font-semibold">
+                You pay more than you think
+              </span>
+            </div>
+          </div>
+
+          <!-- RollTrack Card -->
+          <div class="bg-white border border-emerald-100 rounded-2xl shadow-sm p-6 flex flex-col">
+            <p class="text-xs font-semibold uppercase tracking-wide text-emerald-600 mb-2">
+              RollTrack App + Stripe
+            </p>
+            <h3 class="text-lg font-semibold text-slate-900 mb-4">
+              RollTrack App + Stripe
+            </h3>
+            <ul class="space-y-2 text-sm text-slate-700 mb-4">
+              <li><span class="font-semibold">Monthly billing:</span> $20,000</li>
+              <li><span class="font-semibold">Stripe fee (≈2.9% + 30¢):</span> ≈ $580 / month</li>
+              <li><span class="font-semibold">RollTrack App MVP:</span> $20 / month</li>
+            </ul>
+            <div class="mt-auto flex items-center justify-between pt-4 border-t border-slate-100">
+              <p class="text-sm font-semibold text-slate-900">Total: ≈ $600 / month</p>
+              <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold">
+                Transparent & gym-friendly
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+          <div class="flex items-center space-x-2">
+            <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 text-lg font-bold">
+              💰
+            </span>
+            <p class="text-sm sm:text-base text-slate-800">
+              <span class="font-semibold">Savings:</span> ≈ <span class="font-semibold">$400 / month</span> = ≈ <span class="font-semibold">$4,800 / year</span>
+            </p>
+          </div>
+          <a href="#cta" class="inline-flex justify-center items-center px-5 py-2.5 rounded-full text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+            See Your Exact Savings
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         Features Section
+    ============================ -->
+    <section class="py-16 sm:py-20 bg-white border-y border-slate-200" id="features">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          What You Get With RollTrack App
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 mb-8 max-w-3xl">
+          RollTrack App focuses on the tools BJJ and martial arts gyms actually use every day, while Stripe handles payments with
+          clear, published rates. No bloat. No hidden markups.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- RollTrack Features -->
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+            <h3 class="text-sm font-semibold text-slate-900 mb-3">
+              🥋 RollTrack App Features
+            </h3>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• Simple, fast student check-in at the front desk</li>
+              <li>• Clear attendance tracking for each member</li>
+              <li>• Retention analytics so you see who’s dropping off</li>
+              <li>• At-risk member alerts (students who haven’t shown up)</li>
+              <li>• Ready-for-promotion list built from attendance data</li>
+              <li>• Birthday reminders to boost community and loyalty</li>
+            </ul>
+          </div>
+
+          <!-- Stripe Benefits -->
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+            <h3 class="text-sm font-semibold text-slate-900 mb-3">
+              💳 Stripe Benefits
+            </h3>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• Transparent, publicly listed rates — no mystery pricing</li>
+              <li>• You own your Stripe account, not the software platform</li>
+              <li>• Ability to negotiate better rates as your volume grows</li>
+              <li>• Industry-standard security and PCI compliance</li>
+              <li>• Flexible enough to connect with other tools in the future</li>
+              <li>• No forced long-term contracts tied to one gym platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         How It Works Section
+    ============================ -->
+    <section class="py-16 sm:py-20" id="how-it-works">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          Switching Is Simple
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 mb-8 max-w-2xl">
+          You don’t have to rip everything out overnight. We’ll help you review your current fees, plan a clean migration,
+          and launch RollTrack App + Stripe without losing members.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col">
+            <div class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-slate-900 text-white text-sm font-semibold mb-3">
+              1
+            </div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-2">
+              Savings Checkup
+            </h3>
+            <p class="text-sm text-slate-700">
+              Share a recent statement from your current platform. We calculate your true effective rate and compare it
+              to RollTrack App + Stripe.
+            </p>
+          </div>
+
+          <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col">
+            <div class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-slate-900 text-white text-sm font-semibold mb-3">
+              2
+            </div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-2">
+              Migration Plan
+            </h3>
+            <p class="text-sm text-slate-700">
+              Export your students from CSV, spreadsheet, or your old system. We help you get set up in Stripe and into RollTrack App.
+            </p>
+          </div>
+
+          <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col">
+            <div class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-slate-900 text-white text-sm font-semibold mb-3">
+              3
+            </div>
+            <h3 class="text-sm font-semibold text-slate-900 mb-2">
+              Launch & Support
+            </h3>
+            <p class="text-sm text-slate-700">
+              Turn on the new check-in + billing flow, notify your members, and lean on us for questions during the transition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         Who It’s For Section
+    ============================ -->
+    <section class="py-16 sm:py-20 bg-white border-y border-slate-200" id="who-for">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          Built for Gym Owners Who Care About Margins and Members
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 mb-6 max-w-3xl">
+          RollTrack App is ideal if you want to keep your gym full, your members happy, and your payment fees under control.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• BJJ and martial arts gyms tired of paying 4–8% to get paid</li>
+              <li>• Owners who want simple, reliable check-in instead of bloated software</li>
+              <li>• Gyms that care about retention, not just new sign-ups</li>
+              <li>• Academies that want real data: attendance, churn, and promotions</li>
+            </ul>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li>• Owners who want to <span class="font-semibold">own their payment processor</span>, not be locked in</li>
+              <li>• Smaller gyms looking for fair pricing that still scales with them</li>
+              <li>• Multi-location owners who need clearer visibility across mats</li>
+              <li>• Anyone who wants more money for coaches, gear, and community — not fees</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         FAQ Section
+    ============================ -->
+    <section class="py-16 sm:py-20" id="faq">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 mb-8 max-w-3xl">
+          If you’re wondering what it looks like to move away from a big all-in-one platform, you’re not alone.
+          Here are answers to the most common questions.
+        </p>
+
+        <div class="space-y-6">
+          <!-- FAQ 1 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5">
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">
+              Will I lose my members or auto-payments when I switch?
+            </h3>
+            <p class="text-sm text-slate-700">
+              No. The goal is a clean, safe transition. You can migrate members as their billing cycles renew, clearly
+              communicate changes, and run both systems in parallel for a short time if needed. We’ll help you plan it
+              so you don’t lose anyone.
+            </p>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5">
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">
+              Is Stripe safe and legit for gyms?
+            </h3>
+            <p class="text-sm text-slate-700">
+              Yes. Stripe is one of the most widely used payment platforms in the world, handling billions in transactions
+              for companies of all sizes. You get enterprise-grade security and PCI compliance with clear, published rates.
+            </p>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5">
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">
+              Can RollTrack App work alongside my existing software?
+            </h3>
+            <p class="text-sm text-slate-700">
+              In many cases, yes. RollTrack App is designed as a lightweight check-in and analytics layer. You can keep some
+              of your existing tools while using RollTrack App for attendance, retention insights, and Stripe-based billing.
+            </p>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5">
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">
+              How much does RollTrack App cost?
+            </h3>
+            <p class="text-sm text-slate-700">
+              Our MVP pricing is designed so even smaller academies can benefit. A typical setup is
+              <span class="font-semibold">$20 per month per gym</span>, plus Stripe’s processing fees. The majority of gyms
+              save money overall compared to all-in-one platforms.
+            </p>
+          </div>
+
+          <!-- FAQ 5 (optional extra) -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-5">
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">
+              Do I have to use Stripe, or can I use another processor?
+            </h3>
+            <p class="text-sm text-slate-700">
+              Stripe is our recommended starting point because of its transparency and flexibility. If you’re already
+              working with another processor and getting a great rate, we can discuss how RollTrack App might fit into that setup.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         Final CTA Section
+    ============================ -->
+    <section class="py-16 sm:py-20 bg-slate-900" id="cta">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-3">
+          Want to Know How Much You’re Overpaying?
+        </h2>
+        <p class="text-sm sm:text-base text-slate-200 mb-6">
+          Send us a recent statement from your current platform, and we’ll calculate your true effective rate and show you
+          exactly how much you could save by switching to RollTrack App + Stripe.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-4">
+          <a href="#hero" class="inline-flex justify-center items-center px-6 py-3 rounded-full text-sm font-semibold bg-white text-slate-900 hover:bg-slate-100">
+            Book a Free Savings Checkup
+          </a>
+          <a href="#comparison" class="inline-flex justify-center items-center px-6 py-3 rounded-full text-sm font-semibold border border-slate-500 text-slate-100 hover:bg-slate-800">
+            See Example Savings
+          </a>
+        </div>
+        <p class="text-xs text-slate-400">
+          No obligation, no hard sell. Just clear numbers so you can make the best decision for your gym.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===========================
+       Footer
+  ============================ -->
+  <footer class="py-6 bg-slate-950">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="text-xs text-slate-400">
+        © <span id="year"></span> RollTrack App. All rights reserved.
+      </p>
+      <p class="text-xs text-slate-500">
+        Built for BJJ & Martial Arts Gyms.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
